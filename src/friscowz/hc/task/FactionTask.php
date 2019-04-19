@@ -11,9 +11,9 @@ namespace friscowz\hc\task;
 
 use friscowz\hc\MDPlayer;
 use friscowz\hc\Myriad;
-use pocketmine\scheduler\PluginTask;
+use pocketmine\scheduler\Plugin;
 
-class FactionTask extends PluginTask
+class FactionTask extends Plugin
 {
     private $plugin;
 
